@@ -151,7 +151,7 @@ article h2 {
     background-color: var(--mint);
     color: var(--mint-light);
     position: relative;
-    --bg-image: url("/assets/blackberry-accent.svg");
+    --bg-image: url("../assets/blackberry-accent.svg");
 }
 
 
@@ -168,7 +168,7 @@ article h2 {
 .cherry-limeade {
     background-color: var(--cherry);
     color: var(--cherry-light);
-    --bg-image: url("/assets/cherry-limeade-accent.svg");
+    --bg-image: url("../assets/cherry-limeade-accent.svg");
 }
 
 .cherry-limeade h2,
@@ -179,7 +179,7 @@ article h2 {
 .rootbeer {
     background-color: var(--rootbeer-light);
     color: var(--rootbeer-text);
-    --bg-image: url("/assets/rootbeer-accent.svg");
+    --bg-image: url("../assets/rootbeer-accent.svg");
 }
 
 .rootbeer h2,
@@ -190,7 +190,7 @@ article h2 {
 .lemon-lime-lavender {
     background-color: var(--lavender-light);
     color: var(--lemon-lime);
-    --bg-image: url("/assets/lemon-lime-lavender-accent.svg");
+    --bg-image: url("../assets/lemon-lime-lavender-accent.svg");
 }
 
 .lemon-lime-lavender h2,
@@ -201,7 +201,7 @@ article h2 {
 .lemongrass-ginger {
     background-color: var(--lemongrass);
     color: var(--lemongrass-light);
-    --bg-image: url("/assets/lemongrass-ginger-accent.svg");
+    --bg-image: url("../assets/lemongrass-ginger-accent.svg");
 }
 
 .lemongrass-ginger h2,
@@ -212,7 +212,7 @@ article h2 {
 .peach-habanero {
     background-color: var(--habanero);
     color: var(--peach-light);
-    --bg-image: url("/assets/peach-habanero-accent.svg");
+    --bg-image: url("../assets/peach-habanero-accent.svg");
 }
 
 .peach-habanero h2,
