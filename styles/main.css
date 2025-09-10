@@ -24,13 +24,13 @@
 
 @font-face {
     font-family: BarmenoBold;
-    src: url("/assets/fonts/Barmeno/Barmeno%20Bold/Barmeno%20Bold.otf") format("opentype");
+    src: url("../assets/fonts/Barmeno/Barmeno%20Bold/Barmeno%20Bold.otf") format("opentype");
     font-weight: 400;
 }
 
 @font-face {
     font-family:BarmenoRegular;
-    src: url("/assets/fonts/Barmeno/Barmeno%20Regular/Barmeno%20Regular.otf") format("opentype");
+    src: url("../assets/fonts/Barmeno/Barmeno%20Regular/Barmeno%20Regular.otf") format("opentype");
 }
 
 @font-face {
