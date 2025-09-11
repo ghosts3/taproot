@@ -42,8 +42,8 @@
     box-sizing: border-box;
  }
 
- html {
-    /* --slide-height: 100vh;
+/* html {
+     --slide-height: 100vh;
     --slider-height: 100%;
 
     display: grid;
@@ -52,8 +52,8 @@
     grid-auto-flow: row;
 
     overflow-x: hidden;
-    scroll-snap-type: y mandatory; */
-  }
+    scroll-snap-type: y mandatory;
+  } */
 
   /* .scroll-h > * {
     scroll-snap-align: start;
@@ -72,21 +72,8 @@
 body {
     background-color: var(--main);
     color: var(--main-text);
-   font-family: PGGothicHeadline-Regular;
+    font-family: PGGothicHeadline-Regular;
 }
-
-header {
-    justify-self: center;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 4rem;
-    position: relative;
-  }
 
 img {
     display: block;
@@ -102,24 +89,30 @@ h1, h2, h3 h4 {
     text-transform: uppercase;
 }
 
+header {
+    justify-self: center;
+    padding: 10%;
+}
+
+header img {
+    max-height: 70vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 4rem;
+    position: relative;
+
+    font-size: 1.25rem;
+    letter-spacing: 1.6;
+  }
+
 article p:last-child {
     margin-bottom: 0;
 
-}
-
-article img {
-    height: 100%;
-    object-fit: contain;
-}
-
-.accent-image {
-    align-self: flex-end;
-
-    position: relative;
-  top: -15%;
-  right: 0;
-  height: 40%;
-  max-width: 600px;
 }
 
 article h2 {
@@ -127,8 +120,18 @@ article h2 {
     font-size: 2.5rem;
 }
 
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .soda-image {
-    height: 300px;
+    height: 60vh;
 }
 
 .left {
@@ -139,12 +142,21 @@ article h2 {
     align-self: flex-end;
 }
 
+.product {
+    height: 100vh;
+}
+
 .product::before {
     content: var(--bg-image);
     position: absolute;
     width: 50%;
-    top: 0;
+    max-width: 400px;
+    top: -50px;
     right: 0;
+}
+
+.product h2 {
+    z-index: 1;
 }
 
 .blackberry-mint {
@@ -154,11 +166,6 @@ article h2 {
     --bg-image: url("../assets/blackberry-accent.svg");
 }
 
-
-
-.blackberry-mint h2 {
-    z-index: 1;
-}
 
 .blackberry-mint h2,
 .blackberry-mint strong {
