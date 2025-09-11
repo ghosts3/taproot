@@ -43,7 +43,7 @@
  }
 
  html {
-    --slide-height: 100vh;
+    /* --slide-height: 100vh;
     --slider-height: 100%;
 
     display: grid;
@@ -52,17 +52,17 @@
     grid-auto-flow: row;
 
     overflow-x: hidden;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory; */
   }
 
-  .scroll-h > * {
+  /* .scroll-h > * {
     scroll-snap-align: start;
     /* chrome only */
-    scroll-snap-stop: always;
+    /* scroll-snap-stop: always;
 
     color: #fff;
     height: var(--slide-height);
-  }
+  } */
 /*
   .scroll-h img {
     height: 100vh;
