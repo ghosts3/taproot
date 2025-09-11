@@ -143,13 +143,22 @@ header img {
     font-size: 2.5rem;
 }
 
-.product::before {
+.product:nth-child(even)::before {
     content: var(--bg-image);
     position: absolute;
     width: 50%;
     max-width: 400px;
     top: -50px;
     right: 0;
+}
+
+.product:nth-child(odd)::before {
+    content: var(--bg-image);
+    position: absolute;
+    width: 50%;
+    max-width: 400px;
+    top: -50px;
+    left: 0;
 }
 
 .product:nth-child(even) h2,
