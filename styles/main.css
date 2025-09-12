@@ -29,13 +29,13 @@
 
 @font-face {
     font-family: BarmenoBold;
-    src: url("../assets/fonts/barmeno/barmeno-bold.otf") format("opentype");
+    src: url("../assets/fonts/Barmeno/barmeno-bold.otf") format("opentype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: BarmenoRegular;
-    src: url("../assets/fonts/barmeno/barmeno-regular.otf") format("opentype");
+    src: url("../assets/fonts/Barmeno/barmeno-regular.otf") format("opentype");
 }
 
 @font-face {
