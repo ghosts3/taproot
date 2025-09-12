@@ -277,7 +277,6 @@ header img {
 }
 
 footer {
-    padding: var(--gutter);
     line-height: 1.5;
     letter-spacing: .1rem;
     font-family: BarmenoRegular;
@@ -285,8 +284,9 @@ footer {
 
 footer main {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
   gap: var(--gutter);
+  padding: var(--gutter);
 }
 
 footer .retailers ul {
@@ -337,3 +337,4 @@ footer aside .contact a {
 footer aside p {
     text-align: center;
 }
+
