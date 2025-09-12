@@ -280,13 +280,13 @@ footer {
     line-height: 1.5;
     letter-spacing: .1rem;
     font-family: BarmenoRegular;
+    padding: var(--gutter);
 }
 
 footer main {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   gap: var(--gutter);
-  padding: var(--gutter);
 }
 
 footer .retailers ul {
